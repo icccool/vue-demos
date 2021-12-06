@@ -1,24 +1,44 @@
 # vue-demos
 
-## Project setup
+## 安装node环境
 ```
-npm install
+//下载node并安装
+https://nodejs.org/zh-cn/
+
+//检查版本
+node --version
+
+//npm版本
+npm -v
+
 ```
 
-### Compiles and hot-reloads for development
+###安装vue-cli
+
 ```
-npm run serve
+安装cli
+sudo npm install -g @vue/cli
+
+//设置镜像
+npm config set registry https://registry.npm.taobao.org
 ```
 
-### Compiles and minifies for production
+###集成ace-admin
+
 ```
-npm run build
+http://ace.jeka.by/
+
 ```
 
-### Lints and fixes files
+###加入router
+
 ```
-npm run lint
+sudo npm install --save vue-router
+
+
+
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+
