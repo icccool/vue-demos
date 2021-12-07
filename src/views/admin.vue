@@ -975,5 +975,5 @@
 
 <script>
 $('body').removeClass('login-layout light-login');
-$('body').attr('calss','no-skin');
+$('body').attr('class','no-skin');
 </script>
