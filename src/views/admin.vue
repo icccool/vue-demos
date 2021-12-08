@@ -4,11 +4,8 @@
     <div class="navbar-container ace-save-state" id="navbar-container">
       <button type="button" class="navbar-toggle menu-toggler pull-left" id="menu-toggler" data-target="#sidebar">
         <span class="sr-only">Toggle sidebar</span>
-
         <span class="icon-bar"></span>
-
         <span class="icon-bar"></span>
-
         <span class="icon-bar"></span>
       </button>
 
@@ -932,7 +929,7 @@
           <div class="row">
             <div class="col-xs-12">
               <!-- PAGE CONTENT BEGINS -->
-
+                <router-view/>
               <!-- PAGE CONTENT ENDS -->
             </div><!-- /.col -->
           </div><!-- /.row -->
@@ -974,6 +971,18 @@
 </template>
 
 <script>
-$('body').removeClass('login-layout light-login');
-$('body').attr('class','no-skin');
+
+
+export default {
+  name: 'admin',
+  mounted: function(){
+    $("body").removeClass("login-layout light-login");
+    $("body").attr("class","no-skin");
+    console.log("admin");
+  },
+  methods:{
+
+  }
+}
+
 </script>
